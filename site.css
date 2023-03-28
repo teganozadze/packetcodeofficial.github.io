@@ -1,0 +1,74 @@
+html {
+  background-color: rgb(39, 37, 37);
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: gray;
+}
+
+.navbar header {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  background-color: rgb(97, 97, 97);
+}
+
+.navigation {
+  color: white;
+  user-select: none;
+}
+
+.navbar ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  padding-left: 100px;
+  color: white;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgb(73, 73, 73);
+  transition: 0.5s;
+}
+
+ul li:hover a {
+  padding-left: 50px;
+}
+
+.navbar ul a {
+  margin-right: 16px;
+}
+
+.image {
+  height: 250px;
+  width: 250px;
+  border-radius: 100px;
+  margin-top: 120px;
+}
+
+.contacts {
+  color: white;
+  margin-left: 50px;
+  margin-bottom: 70px;
+}
+
+.gmail {
+  font-family: sans-serif;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
